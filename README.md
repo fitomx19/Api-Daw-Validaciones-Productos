@@ -8,12 +8,11 @@ Desarrollada en Spring Tool Suite, esta es una API que relaciona Categorias con 
 
 > Ejemplo de consulta para obtener cada uno de los estados registrados
 
-## Instrucciones
-
-- Si les falla, chequen que tenga los getters y setters. 
+## Detalles
+-inventario/target/classes/application.properties entrar a esta ruta y cambiar su base de datos por la mia que se llama inventario1, si no tienen bd, solo basta crearla en MySQL workbench sin ninguna tabla, este los genera.
+- Si les falla, chequen que tenga los getters y setters en las clases Producto y Categoria. 
 - Hay un .jar faltante que no menciono el profesor ( o cuando menos no escuche xd).
 [Jackson 2.11.4](https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations/2.11.4) ,  solo importentlo y creo que con eso bastara.
 
-- Otra cosa importante, cambien las credenciales de la Base de datos, y hagan la creación de su base de datos. las tablas no son necesarias dado que el la API como tal las crea con los modelos.
 
 Si tienen una duda en particular, manden mensajito, 
