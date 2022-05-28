@@ -35,10 +35,7 @@ public class Producto implements Serializable{
 	
 		
 	
-	public Producto() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
+
 
 	public Long getIdProducto() {
 		return idProducto;
