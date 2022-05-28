@@ -34,7 +34,7 @@ public class Producto implements Serializable{
 	private Long idProducto;
 	
 		
-	
+	#eliminar producto
 
 
 	public Long getIdProducto() {
