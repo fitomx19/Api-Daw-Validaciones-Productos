@@ -15,4 +15,7 @@ Desarrollada en Spring Tool Suite, esta es una API que relaciona Categorias con 
 [Jackson 2.11.4](https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations/2.11.4) ,  solo importentlo y creo que con eso bastara.
 
 
+##Update: Ya tengo el sitio en linea, los cambios y correcciones estan en este mismo repo
+[API FUNCIONAL](https://mighty-fjord-48440.herokuapp.com/api/categoria)
+
 Si tienen una duda en particular, manden mensajito, 
