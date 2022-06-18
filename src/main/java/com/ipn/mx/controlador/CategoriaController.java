@@ -126,6 +126,9 @@ public class CategoriaController {
 		}
 		try {
 			catagoriaNueva = service.save(categoria);
+			response.put("mensaje", "insertado satisfacotriamente");
+			response.put("categoria", catagoriaNueva);
+			return new  ResponseEntity<Map<String,Object>>(response,HttpStatus.CREATED);
 		}catch(DataAccessException e ) {
 			response.put("mensaje", "error al insertar");
 			response.put("error", e.getMessage().concat(" ").concat(e.getMostSpecificCause().getMessage()));
@@ -133,10 +136,8 @@ public class CategoriaController {
 	
 		}
 		
-		catagoriaNueva = service.save(categoria);
-		response.put("mensaje", "insertado satisfacotriamente");
-		response.put("categoria", catagoriaNueva);
-		return new  ResponseEntity<Map<String,Object>>(response,HttpStatus.CREATED);
+	
+		
 	}
 //Fin del controller
 	
